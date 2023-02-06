@@ -1,0 +1,30 @@
+#basic program functionality elements
+elements = list()
+operation = ['+' , '-']
+operator = input('what operation you want to perform? ')
+if operator in operation :
+  a = 0
+  a = input('number A: ')
+  c = int(a)
+  elements.append(c)
+  b = 0
+  b = input('number B: ')
+  d = int(b)
+  elements.append(d)
+else :
+  print('error! operation must be +/- ...')
+
+#operations starts here
+add = c + d
+sub = c - d
+if operator == '+' :
+  print('   ' , c)
+  print('+  ' , d)
+  print('------------')
+  print(add)
+else :
+   print('   ' , c)
+   print('-  ' , d)
+   print('------------')
+   print(sub)
+   
